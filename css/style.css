@@ -1,0 +1,63 @@
+/* css reset  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(238, 197, 121);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* main section starts */
+
+label{
+    font-size: 1.8rem;
+}
+
+
+.container {
+    min-width: 50%;
+    border: 2px solid pink;
+    background: rgb(245, 174, 187);
+    text-align: center;
+    padding: 5rem 3rem;
+    box-shadow: 5px 5px 10px 0 #000;
+
+}
+
+input {
+    margin: 2rem 0;
+    width: 100px;
+    height: 30px;
+}
+
+select {
+    width: 100px;
+    height: 30px;
+}
+
+#btn {
+    display: block;
+    margin: auto;
+
+    background: #000;
+    color: #fff;
+    width: 4.5rem;
+    height: 1.8rem;
+
+}
+
+#result {
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+
+/* end  */
